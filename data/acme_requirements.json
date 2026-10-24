@@ -1,0 +1,42 @@
+[
+  {
+    "id": "AI-001",
+    "requirement": "AI applications must have an identified business owner.",
+    "check_hint": "Is a named person or role responsible? A team name alone is not enough."
+  },
+  {
+    "id": "AI-002",
+    "requirement": "Sensitive or confidential information must not be submitted to an AI system without appropriate controls.",
+    "check_hint": "Does it use personal, financial, HR or confidential data? Are protections like masking described?"
+  },
+  {
+    "id": "AI-003",
+    "requirement": "AI-generated outputs used for business decisions must have appropriate human oversight.",
+    "check_hint": "Does a human review the output before decisions? Is the AI the primary or only input?"
+  },
+  {
+    "id": "AI-004",
+    "requirement": "AI applications must maintain appropriate logging and monitoring.",
+    "check_hint": "Is logging of prompts and outputs, and monitoring, described?"
+  },
+  {
+    "id": "AI-005",
+    "requirement": "AI applications must have defined access controls.",
+    "check_hint": "Does it say who can use the app and its data?"
+  },
+  {
+    "id": "AI-006",
+    "requirement": "Third-party AI models and services must undergo appropriate security assessment.",
+    "check_hint": "Does it use a third-party model or service? Is a security assessment mentioned?"
+  },
+  {
+    "id": "AI-007",
+    "requirement": "AI applications must have documented intended use and limitations.",
+    "check_hint": "Is the intended use described? Are the limitations written down?"
+  },
+  {
+    "id": "AI-008",
+    "requirement": "High-risk AI use cases must undergo additional review before deployment.",
+    "check_hint": "Is it high-risk (sensitive personal or financial data sent to an outside provider, or decisions about people)? Is an additional review mentioned?"
+  }
+]
