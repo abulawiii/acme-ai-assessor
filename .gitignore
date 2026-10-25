@@ -6,10 +6,6 @@
 *.pem
 .streamlit/secrets.toml
 
-# Claude Code files
-CLAUDE.md
-CLAUDE.local.md
-.claude/
 
 # Audit logs (may contain use case data)
 logs/
